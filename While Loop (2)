@@ -9,7 +9,7 @@ int main(){
     while(count <= 10)
     {
         int prod = num * count;
-        printf("%d \n",prod);
+        printf("%d * %d = %d \n",num , count,prod);
         count = count+1;
     }return 0;
 }
