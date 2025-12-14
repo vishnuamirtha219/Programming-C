@@ -1,0 +1,30 @@
+#include <stdio.h>
+int main(){
+    int num;
+    printf("Enter a Number: ");
+    scanf("%d",&num);
+    
+    int count = 10;
+    while(count>=1)
+    {
+        int prod = num*count;
+        printf("%d * %d = %d\n",num,count,prod);
+        count--;
+    }return 0;
+    
+}
+
+
+OUTPUT:
+
+Enter a Number: 45
+45 * 10 = 450
+45 * 9 = 405
+45 * 8 = 360
+45 * 7 = 315
+45 * 6 = 270
+45 * 5 = 225
+45 * 4 = 180
+45 * 3 = 135
+45 * 2 = 90
+45 * 1 = 45
