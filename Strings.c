@@ -4,7 +4,7 @@ int main(){
     char str[20];
 
     printf("Enter your String: ");
-    scanf("%s",str);
+    fgets(str,sizeof(str),stdin);
     printf("\n%s",str);
     return 0;
 }
