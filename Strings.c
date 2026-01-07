@@ -1,7 +1,10 @@
 #include<stdio.h>
 int main(){
-    char str[]="Hello motto";
-    printf("%s",str);
-    printf("\n%d",str);
+
+    char str[20];
+
+    printf("Enter your String: ");
+    scanf("%s",str);
+    printf("\n%s",str);
     return 0;
 }
